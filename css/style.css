@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+header{
+    background-color: #add8e6;
+    padding: 1em 0em;
+}
+
+.logo-container{
+    flex-grow: 2;
+    border: 2px dashed;
+    padding: 0.3em;
+}
+
+nav{
+    flex-grow: 4;
+    border: 2px dashed;
+    text-align: center;
+    padding: 0.3em;
+}
+
+.login-container{
+    border: 2px dashed;
+    padding: 0.3em;
+}
+
+
+.container{
+    width: 920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #daa520;
+}
+
+main
