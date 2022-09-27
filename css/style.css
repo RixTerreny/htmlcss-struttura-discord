@@ -28,7 +28,7 @@ nav{
 }
 
 
-.container{
+.header-container{
     width: 920px;
     margin: auto;
     display: flex;
@@ -36,4 +36,125 @@ nav{
     background-color: #daa520;
 }
 
-main
+#first{
+    background-color: #00008b;
+    padding: 2em 6em;
+}
+
+.section-second-type{
+    background-color: #d3d3d3;
+}
+
+.main-section{
+    width: 800px;
+    height: 17em;
+    border: 2px dashed;
+    background-color: #ee82ee;
+    margin: auto;
+}
+
+.section-container-1{
+    margin: auto;
+    width: 920px; 
+    height: 27em;
+    display: flex;
+    padding: 3em 0em;
+}
+
+.section-container-2{
+    background-color: #d3d3d3;
+    margin: auto;
+    width: 920px; 
+    height: 27em;
+    display: flex;
+    padding: 3em 0em;
+}
+
+.section-container-3{
+    background-color: #228b22;
+    width: 920px; 
+    height: 45em;
+    display: flex;
+    padding: 3em 0em;
+    border: 2px dashed;
+    margin: 2em auto;
+}
+
+.section-image{
+    background-color: #ffc0cb;
+    border: 2px dashed;
+    flex-grow: 1;
+    order: 2;
+}
+
+.section-text{
+    background-color: #1e90ff;
+    border: 2px dashed;
+    flex-grow: 1.4;
+    order:1;
+}
+
+.section-image-second-type{
+    background-color: #ffc0cb;
+    border: 2px dashed;
+    flex-grow: 1;
+}
+
+.section-text-second-type{
+    background-color: #1e90ff;
+    border: 2px dashed;
+    flex-grow: 1.4;
+}
+
+.section-3{
+    background-color: #d3d3d3;
+    padding: 2em 0em;
+}
+
+.section-4{
+    background-color: #23272a;
+    padding: 1em 0em
+    2em 0em;
+}
+
+.container-4{
+    display: flex;
+    width: 920px;
+    height: 34em;
+    margin: auto;
+}
+
+.section-4-logo{
+    background-color: #f08080;
+    flex-grow: 2;
+    border: 2px dashed;
+}
+
+.column{
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    flex-grow: 0.75;
+}
+
+footer section{
+    background-color: #23272a;
+    padding-top: 1em;
+}
+
+.footer-section{
+    width: 920px;
+    height: 4em;
+    background-color: #7fffd4;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section div{
+    background-color: #ffb6c1;
+    padding: 0.2em;
+    border: 2px dashed;
+    text-align: center;
+    height: 2em;
+}
